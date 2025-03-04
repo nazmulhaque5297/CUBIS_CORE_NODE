@@ -1,0 +1,570 @@
+division_code,district_code,upazila_code,upazila_name,upazila_name_bangla,created_by
+20,84,22,pouroshova,Pouroshova.,admin
+55,85,92,Taraganj,তারগঞ্জ,admin
+55,85,3,Badarganj,বদরগঞ্জ,admin
+55,85,76,Pirganj,পিরগঞ্জ,admin
+55,85,49,Rangpur Sadar,রংপুর সদর,admin
+55,94,8,Baliadangi,বালিয়াডাঙ্গি,admin
+55,94,86,Ranishankail,Ranishankail.,admin
+55,94,94,Thakurgaon Sadar,ঠাকুরগাঁও সদর,admin
+55,94,82,Pirganj,পিরগঞ্জ,admin
+55,94,51,Haripur,হরিপুর,admin
+55,52,55,Lalmonirhat Sadar,লালমনিরহাট সদর,admin
+55,52,39,Kaliganj,কালীগঞ্জ,admin
+55,52,33,Hatibandha,Hatibandha.,admin
+55,52,70,Patgram,প্যাটগ্রাম,admin
+55,52,2,Aditmari,আদিতমারী,admin
+55,49,6,Bhurungamari,ভুরুঙ্গামারী,admin
+55,49,61,Nageswari,নাগেশ্বরী,admin
+55,49,52,Kurigram Sadar,কুড়িগ্রাম সদর,admin
+55,49,77,Rajarhat,রাজরহাট,admin
+55,49,8,Rajibpur,রাজীবপুর,admin
+55,49,79,Rowmari,রওমারি,admin
+55,49,18,Fulbari,ফুলবাড়ী,admin
+55,49,94,Ulipur,উলিপুর,admin
+55,49,9,Chilmary,চিলমারি,admin
+55,73,36,Jaldhaka,জলদহাকা,admin
+55,73,64,Nilphamari Sadar,নীলফামারী সদর,admin
+55,73,85,Saidpur,সাইদপুর,admin
+55,73,15,Domar,Domar.,admin
+55,73,45,Kishoreganj,কিশোরগঞ্জ,admin
+55,73,12,Dimla,ডিমলা,admin
+55,27,77,Parbatipur,পার্বতীপুর,admin
+55,27,60,Khansama,খানসাম.,admin
+55,27,21,Bochaganj,Bochaganj.,admin
+55,27,43,Ghoraghat,ঘোরাঘাট,admin
+55,27,47,Hakimpur,হাকিমপুর,admin
+55,27,56,Kaharole,Kaharole.,admin
+55,27,17,Birol,Birol.,admin
+55,27,12,Birganj,বীরগঞ্জ,admin
+55,27,30,Chirirbandar,চেরিরবন্দর,admin
+55,27,69,Nawabganj,নবাবগঞ্জ,admin
+55,27,10,Birampur,বিরামপুর,admin
+50,70,66,Nawabganj Sadar,নবাবগঞ্জ সদর,admin
+50,70,56,Nachole,Nachole.,admin
+50,70,18,Bholahat,ভোলাহাট,admin
+50,70,88,Shibganj,শিবগঞ্জ,admin
+50,70,37,Gomastapur,গোমস্তাপুর,admin
+50,10,20,Bogura Sadar,বোগুরা সদর,admin
+50,10,54,Kahaloo,কাহালু,admin
+50,10,81,Sariakandi,সারিয়াকান্দি,admin
+50,10,6,Adamdighi,আদমদিঘি,admin
+50,10,40,Gabtali,গাবতলী,admin
+50,10,95,Sonatola,Sonatola.,admin
+50,10,67,Nandigram,নন্দীগ্রাম,admin
+50,10,85,Shajahanpur,শাজাহানপুর,admin
+50,10,27,Dhunot,ধুনট,admin
+50,10,33,Dhubchanchia,ধনীচঞ্চিয়া,admin
+50,10,88,Sherpur,শেরপুর,admin
+50,10,94,Shibganj,শিবগঞ্জ,admin
+50,88,11,Belkuchi,Belkuchi.,admin
+50,88,44,Kamarkhanda,কামারখন্ডা,admin
+50,88,89,Tarash,তারশ,admin
+50,88,50,Kazipur,কাজীপুর,admin
+50,88,61,Raiganj,রায়গঞ্জ,admin
+50,88,67,Shahjadpur,শাহজাদপুর,admin
+50,88,78,Sirajganj Sadar,সিরাজগঞ্জ সদর,admin
+50,88,94,Ullapara,Ullapara.,admin
+50,88,27,Chowhali,চৌহালী,admin
+50,38,13,Akkelpur,আক্কেলপুর,admin
+20,12,63,Kashba,কাশবা,admin
+20,46,67,Manikchari,মানিকছড়ি,admin
+20,46,43,Dighinala,দিঘিনালা,admin
+20,46,65,Mohalchari,মোহালছড়ি,admin
+20,46,61,Laksmichari,লক্ষ্মীচড়ি,admin
+20,46,49,Khagrachari Sadar,খাগড়াছড়ি সদর,admin
+20,46,70,Matiranga,মতিরাঙ্গা,admin
+20,46,77,Panchari,পঞ্চরী,admin
+20,46,80,Ramgor,রামগর,admin
+20,13,22,Chandpur Sadar,চাঁদপুর সদর,admin
+20,13,45,Faridganj,ফরিদগঞ্জ,admin
+20,13,49,Hajiganj,হাজীগঞ্জ,admin
+20,13,58,Kachua,কচুয়া,admin
+20,13,95,Shahrasti,শাহরাস্তি,admin
+20,13,76,Matlab (South),মাতলাব (দক্ষিণ),admin
+10,4,92,Taltali,তালতালি,admin
+10,78,97,Rangabali,রাঙ্গবালী,admin
+20,15,6,Bayejid Bostami,Bayejid Bostami.,admin
+20,15,12,Boalkhali,বোয়ালখালী,admin
+20,15,19,Chandgaon,চাঁদগাও,admin
+20,15,20,Chattogram Port,Chattogram পোর্ট,admin
+20,15,28,Double Mooring,ডাবল মুরিং,admin
+20,15,35,Halishahar,হালিশহর,admin
+20,15,41,Kotwali,কোতোয়ালী,admin
+20,15,43,Khulshi,খুলশী,admin
+20,15,55,Pahartali,পাহাড়তলী,admin
+20,15,57,Panchlaish,পাঁচলাইশ,admin
+20,15,65,Patenga,পটঙ্গা,admin
+30,26,2,Adabor,Adabor.,admin
+30,26,4,Badda,বাড্ডা,admin
+30,26,5,Bangshal,বঙ্গশাল,admin
+30,26,6,Biman Bandar,বিমান বন্দর,admin
+30,26,7,Banani,বনানী,admin
+30,26,8,Cantonment,ক্যান্টনমেন্ট,admin
+30,26,9,Chak Bazar,চাক বাজার,admin
+30,26,10,Dakshinkhan,Dakshinkhan.,admin
+30,26,11,Darus Salam,ডারুস সালাম,admin
+30,26,12,Demra,ডেমরা,admin
+30,26,16,Dhanmondi,ধনমন্ডি,admin
+30,26,21,Bhasan Tek,ভাসান টেক,admin
+30,26,22,Bhatara,ভাতারা,admin
+30,26,24,Gendaria,গেন্ডারিয়া,admin
+30,26,26,Gulshan,গুলশান,admin
+30,26,28,Hazaribagh,হাজারীবাগ,admin
+30,26,29,Jatrabari,যাত্রাবাড়ী,admin
+30,26,30,Kafrul,কাফরুল,admin
+30,26,32,Kadamtali,কাদামতলী,admin
+30,26,33,Kalabagan,কালাবাগান,admin
+30,26,34,Kamrangir Char,কামরাঙ্গীর চর,admin
+30,26,36,Khilgaon,খিলগাঁও,admin
+30,26,37,Khilkhet,খিলক্ষেত,admin
+30,26,40,Kotwali,কোতোয়ালী,admin
+30,26,42,Lalbagh,লালবাগ,admin
+30,26,48,Mirpur,মিরপুর,admin
+30,26,50,Mohammadpur,মোহাম্মদপুর,admin
+30,26,54,Motijheel,মতিঝিল,admin
+30,26,57,Mugda Para,মুগদা প্যারা,admin
+30,26,63,New Market,নতুন বাজার,admin
+30,26,64,Pallabi,পল্লবী,admin
+30,26,65,Paltan,পল্টন,admin
+30,26,66,Ramna,রমনা,admin
+30,26,67,Rampura,রামপুরা,admin
+30,26,68,Sabujbagh,সাবজবাগ,admin
+30,26,70,Rupnagar,রূপনগর,admin
+30,26,73,Shahjahanpur,শাহজাহানপুর,admin
+30,26,74,Shah Ali,শাহ আলী,admin
+30,26,75,Shahbagh,শাহবাগ,admin
+30,26,76,Shyampur,শ্যামপুর,admin
+30,26,80,Sher-E-Bangla Nagar,শের-ই-বাংলা নগর,admin
+30,26,88,Sutrapur,সুত্রাপুর,admin
+30,26,90,Tejgaon,তেজগাঁও,admin
+30,26,92,Tejgaon Ind. Area,তেজগাঁও ইন্ডিয়া এলাকা,admin
+30,26,93,Turag,Turag.,admin
+30,26,94,Uttara Paschim,উত্তরা পাসচিম,admin
+30,26,95,Uttara Purba,উত্তরা পূর্বা,admin
+30,26,96,Uttar Khan,উত্তর খান,admin
+30,26,98,Wari,ওয়ারী,admin
+50,81,22,Boalia,বোয়ালিয়া,admin
+50,81,40,Matihar,মতিহার,admin
+50,81,85,Rajpara,রাজপাড়া,admin
+50,81,90,Shah Makhdum,শাহ মাখদুম,admin
+10,4,9,Amtali,আমতলী,admin
+10,4,19,Bamna,বাম্না,admin
+10,4,28,Barguna Sadar,বরগুনা সদর,admin
+10,4,47,Betagi,Betagi.,admin
+10,4,85,Patharghata,পাথরঘাট,admin
+10,6,2,Agaljhara,আগালঝারা,admin
+30,67,2,Araihazar,আরিহাজার,admin
+30,67,4,Sonargaon,সোনারগাঁও,admin
+30,67,6,Bandar,বন্দর,admin
+30,67,58,Narayanganj Sadar,নারায়ণগঞ্জ সদর,admin
+30,67,68,Rupganj,রূপগঞ্জ,admin
+20,13,47,Haimchar,হিমচর,admin
+20,19,75,Meghna,মেঘনা,admin
+20,19,74,Monoharganj,মনোহরগঞ্জ,admin
+20,19,9,Barura,বারুরা,admin
+20,19,40,Debidwar,Debidwar.,admin
+20,19,81,Muradnagar,মুরাদনগর,admin
+20,19,36,Daudkandi,দাউদকান্দি,admin
+20,19,54,Homna,হোমনা,admin
+20,19,27,Chandina,চন্দনা,admin
+20,19,31,CHAUDDAGRAM,চৌদ্দগ্রাম,admin
+20,19,72,Laksam,Laksam.,admin
+20,19,33,Cumilla Sadar South,কুমিল্লা সদর দক্ষিণে,admin
+20,19,15,Brahmanpara,ব্রাহ্মণপাড়া,admin
+20,19,18,Burichang,Burichang.,admin
+20,19,67,Cumilla Sadar,কুমিল্লা সদর,admin
+20,19,87,Nangolkot,Nangolkot.,admin
+20,19,94,Titas,তিতাস,admin
+20,15,33,Fatikchari,ফাতিকছড়ি,admin
+20,15,61,Patiya,Patiya.,admin
+20,15,70,Rangunia,রাঙ্গুনিয়া,admin
+20,15,4,Anowara,আনোয়ারা,admin
+20,15,10,Bakalia,বাকলিয়া,admin
+20,15,8,Banshkhali,বাঁশখালী,admin
+20,15,47,Lohagara,লোহাগড়া,admin
+20,15,82,Satkania,সাতকানিয়া,admin
+20,15,86,Sitakundu,সীতাকুন্ডু,admin
+20,15,78,Sandwip,স্যান্ডউইপ,admin
+20,15,18,Chandanaish,চন্দনাইশ,admin
+20,15,37,Hathazari,হাটহাজারী,admin
+20,15,53,Mirsarai,মিরসরাই,admin
+20,15,74,Raujan,রাউজান,admin
+20,75,7,Begumganj,বেগমগঞ্জ,admin
+20,75,36,Hatiya,Hatiya.,admin
+20,75,47,Kabir Hat,কবির হাট,admin
+20,75,10,Chatkhil,চাতখিল,admin
+20,75,80,Senbag,Senbag.,admin
+20,75,83,Sonaimuri,সোনাইমুরি,admin
+20,75,21,Companiganj,কম্পানিগঞ্জ,admin
+20,75,87,Noakhali Sadar(Sudharam),নোয়াখালী সদর (সুধারাম),admin
+20,75,85,Subarnachar,সুবর্ণচর,admin
+20,3,89,Rawanchari,রাউঞ্চারি,admin
+20,3,95,Thanchi,থানচি,admin
+20,3,51,Lama,লামা,admin
+20,3,14,Bandarban Sadar,বান্দরবান সদর,admin
+20,3,4,Ali Kadam,আলী কাদাম,admin
+20,3,91,Ruma,রুমা,admin
+20,3,73,Nakhoyngchari,নখনগচারী,admin
+20,51,43,Laksmipur Sadar,লক্ষ্মীপুর সদর,admin
+20,51,73,Ramgati,রামগতি,admin
+20,51,33,Kamalnagar,কামালনগর,admin
+20,51,58,Raipur,রায়পুর,admin
+20,51,65,Ramganj,রামগঞ্জ,admin
+20,22,66,Ramu,রামু,admin
+20,22,90,Teknaf,টেকনাফ,admin
+20,22,45,Kutubdia,কুতুবদিয়া,admin
+20,22,24,Coxs Bazar Sadar,কক্সবাজার সদর,admin
+20,22,49,Moheshkhali,মোহরখালী,admin
+20,22,94,Ukhia,উখিয়া,admin
+20,22,16,Chakoria,চকোরিয়া,admin
+20,22,56,Pekua,Pekua.,admin
+20,84,78,Rajasthali,রাজস্থানীয়,admin
+20,84,21,Barkal,বরকত,admin
+20,84,36,Kaptai,কাপ্তাই,admin
+20,84,58,Langadu,Langadu.,admin
+20,84,47,Jurachari,জুরাকাড়ি,admin
+20,84,25,Kawkhali,কাভখালী,admin
+20,84,75,Naniarchar,Naniarchar.,admin
+20,84,87,Rangamati Sadar,রাঙ্গামাটি সদর,admin
+20,84,7,Baghaichari,বাগহিছড়ি,admin
+20,84,29,Belaichari,Belaichari,admin
+10,9,29,Daulatkhan,দৌলতখান,admin
+10,9,65,Manpura,মানপুরা,admin
+10,9,91,Tajumuddin,তাজুমউদ্দিন,admin
+10,9,18,Bhola Sadar,ভোলা সদর,admin
+10,9,25,Charfession,উপদেষ্টা,admin
+10,9,54,Lalmohan,লালমোহন,admin
+10,9,21,Borhanuddin,বোরহানউদ্দিন,admin
+10,42,73,Nalchiti,নলচিটি,admin
+10,42,40,Jhalokathi Sadar,ঝালকাঠি সদর,admin
+10,42,43,Kathalia,কাথালিয়া,admin
+10,42,84,Rajapur,রাজাপুর,admin
+10,78,76,Mirjaganj,মিরজগঞ্জ,admin
+10,78,95,Patuakhali Sadar,পটুয়াখালী সদর,admin
+10,78,66,Kalapara,কালাপাড়া,admin
+10,78,38,Bauphal,Bauphal.,admin
+10,78,57,Galachipa,গলাচিপা,admin
+10,78,52,Dashmina,ড্যাশমিনা,admin
+10,78,55,Dumki,Dumki.,admin
+10,79,47,Kaukhali,কাউখালী,admin
+10,79,80,Perojpur Sadar,পেরোজপুর সদর,admin
+10,79,87,Nesarabad (Shawrupkathi),নেসরাবাদ (শওরুপ্কথী),admin
+10,79,76,Nazirpur,নাজিরপুর,admin
+10,79,90,Zia Nagar (Indurkani),জিয়া নগর (ইন্দুরকানি),admin
+10,79,14,Bhandaria,ভান্ডারিয়া,admin
+10,79,58,Mothbaria,Mothbaria.,admin
+40,47,64,Paikgacha,পাইকগাছা,admin
+40,47,75,Rupsa,রূপসা,admin
+40,47,30,Dumuria,ডুমুরিয়া,admin
+40,47,12,Batiaghata,বটিঘাটা,admin
+40,47,40,Dighalia,দিঘালিয়া,admin
+40,47,53,Koira,Koira.,admin
+40,47,94,Terokhada,Terokhada.,admin
+40,47,17,Dacope,Dacope.,admin
+40,47,69,Phultala,ফুলতলা,admin
+40,57,87,Meherpur Sadar,মেহেরপুর সদর,admin
+40,57,60,Mujibnagar,মুজিবনগর,admin
+40,57,47,Gangni,গঙ্গী,admin
+40,55,66,Mohammadpur,মোহাম্মদপুর,admin
+40,55,57,Magura Sadar,মাগুরা সদর,admin
+40,55,85,Shalikha,শালিখা,admin
+40,55,95,Sreepur,শ্রীপুর,admin
+40,65,52,Lohagara,লোহাগড়া,admin
+40,65,76,Narail Sadar,নড়াইল সদর,admin
+40,65,28,Kalia,Kalia.,admin
+40,18,31,Damurhuda,দামুরহুদা,admin
+40,18,55,Jibannagar,জিবনগর,admin
+40,18,7,Alamdanga,আলমডাঙ্গা,admin
+40,18,23,Chuadanga Sadar,চুয়াডাঙ্গা সদর,admin
+40,87,47,Kaliganj,কালীগঞ্জ,admin
+40,87,25,Debhata,দেবহাট,admin
+40,87,43,Kalaroa,কালারোয়া,admin
+40,87,90,Tala,Tala.,admin
+40,87,4,Assasuni,আসসুনি,admin
+40,87,82,Satkhira Sadar,সাতক্ষীরা সদর,admin
+40,87,86,Shyamnagar,শ্যামনগর,admin
+40,41,38,Keshabpur,কেশবপুর,admin
+40,41,4,Abhoynagar,অভয়নগর,admin
+40,41,11,Chowgacha,Chowgacha.,admin
+40,41,9,Bagherpara,বাগেরপাড়া,admin
+40,41,23,Jhikargacha,ঝিকর্গছা,admin
+40,41,61,Manirampur,মনিরামপুর,admin
+40,41,47,Jashore Sadar,জশোর সদর,admin
+40,41,90,Sharsha,শরশা,admin
+40,44,33,Kaliganj,কালীগঞ্জ,admin
+40,44,71,Moheshpur,মোহেসপুর,admin
+40,44,80,Shailkupa,শাইলকুপা,admin
+40,44,14,Harinakunda,হরিনকুন্ডা,admin
+40,44,19,Jhenaidah Sadar,ঝিনাইদহ সদর,admin
+40,44,42,Kotchandpur,কোটচাঁদপুর,admin
+40,50,15,Bheramara,ভেরামারা,admin
+40,50,71,Kumarkhali,কুমারখালী,admin
+40,50,63,Khoksha,খাপশা,admin
+40,50,79,Kushtia Sadar,কুষ্টিয়া সদর,admin
+40,50,39,Daulatpur,দৌলতপুর,admin
+40,50,94,Mirpur,মিরপুর,admin
+40,1,77,Sarankhola,শাহখোলা,admin
+30,33,34,Kaliganj,কালীগঞ্জ,admin
+30,33,30,Gazipur Sadar,গাজীপুর সদর,admin
+30,33,32,Kaliakair,কালিয়াকৈর,admin
+30,33,36,Kapasia,কাপাসিয়া,admin
+30,33,86,Sreepur,শ্রীপুর,admin
+40,1,34,Fakirhat,ফকিরহাট,admin
+40,1,60,Morelganj,মোরেলগঞ্জ,admin
+40,1,8,Bagerhat Sadar,বাগেরহাট সদর,admin
+40,1,73,Rampal,রামপাল,admin
+40,1,38,Kachua,কচুয়া,admin
+40,1,58,Mongla,মংলা,admin
+40,1,14,Chitalmari,Chitalmari.,admin
+40,1,56,Mollarhat,মোল্লারহাট,admin
+30,93,25,Dhanbari,ধনবাড়ী,admin
+30,93,38,Gopalpur,গোপালপুর,admin
+30,93,47,Kalihati,কালীহতি,admin
+30,93,23,Delduar,Delduar.,admin
+30,93,57,Modhupur,মধুপুর,admin
+30,93,76,Nagarpur,নগরপুর,admin
+30,93,85,Shakhipur,শাকীপুর,admin
+30,93,95,Tangail Sadar,টাঙ্গাইল সদর,admin
+30,93,19,Bhuapur,ভূপপুর,admin
+30,93,9,Bashail,বাশাইল,admin
+30,93,66,Mirzapur,মির্জাপুর,admin
+30,93,28,Ghatail,ঘাটাইল,admin
+30,54,54,Madaripur Sadar,মাদারীপুর সদর,admin
+30,54,80,Rajoir,Rajoir.,admin
+30,54,40,Kalkini,কলকিনি,admin
+30,54,87,Shibchar,শিবচর,admin
+45,72,83,Purbadhala,পূর্বাধাল,admin
+45,72,9,Barhatta,বারহট্টা,admin
+45,72,38,Khaliajuri,খালিয়াজুরি,admin
+45,72,56,Madan,মাদান,admin
+45,72,63,Mohanganj,মহানগঞ্জ,admin
+45,72,40,Kalmakanda,কলমকান্দা,admin
+45,72,47,Kendua,Kendua.,admin
+45,72,74,Netrokona Sadar,নেত্রকোনা সদর,admin
+45,72,4,Atpara,আতপাড়া,admin
+45,72,18,Durgapur,দুর্গাপুর,admin
+30,29,56,Madhukhali,মধুখালী,admin
+30,29,84,Sadarpur,সদরপুর,admin
+30,29,47,Faridpur Sadar,ফরিদপুর সদর,admin
+30,29,18,Boalmari,বোয়ালমারি,admin
+30,29,3,Alfadanga,আলফাদাঙ্গা,admin
+30,29,21,Char Bhadrasan,চর ভদ্রসান,admin
+30,29,90,Saltha,সালথা,admin
+30,29,62,Nagarkanda,Nagarkanda.,admin
+30,29,10,Bhanga,ভঙ্গা,admin
+30,82,7,Baliakandi,বালিয়াকান্দি,admin
+30,82,29,Goalunda,গোয়ালুন্ডা,admin
+30,82,73,Pangsha,Pangsha.,admin
+30,82,76,Rajbari Sadar,রাজবাড়ী সদর,admin
+30,82,47,Kalukhale,কালুখেল,admin
+45,39,61,Melandah,Melandah.,admin
+45,39,7,Bakshiganj,বখশীগঞ্জ,admin
+45,39,29,Islampur,Islampur.,admin
+45,39,36,Jamalpur Sadar,জামালপুর সদর,admin
+45,39,15,Dewanganj,দেওয়ানগঞ্জ,admin
+45,39,58,Madarganj,মাদারগঞ্জ,admin
+45,39,85,Sarishabari,সারিশাবাড়ী,admin
+30,68,7,Belabo,Belabo.,admin
+30,68,76,Shibpur,শিবপুর,admin
+30,68,64,Raipura,রায়পুরা,admin
+30,68,60,Narsingdi Sadar,নরসিংদী সদর,admin
+30,68,52,Monohardi,মনোহরদী,admin
+30,68,63,Palash,পলাশ,admin
+45,61,72,Nandail,নন্দাইল,admin
+45,61,13,Bhaluka,ভলুকু,admin
+45,61,16,Dhubaura,ধুবাউরা,admin
+45,61,20,Fulbaria,ফুলবাড়িয়া,admin
+45,61,81,Fulpur,ফুলপুর,admin
+45,61,94,Trishal,ত্রিশাল,admin
+45,61,52,Mymensingh Sadar,ময়মনসিংহ সদর,admin
+45,61,22,Gaffargaon,গাফরগাঁও,admin
+45,61,23,Gouripur,গৌরীপুর,admin
+45,61,24,Haluaghat,হালুঘাট,admin
+45,61,31,Iswarganj,ইশারগঞ্জ,admin
+45,61,65,Muktagacha,মুক্তাগাচা,admin
+30,48,42,Karimganj,করিমগঞ্জ,admin
+30,48,79,Pakundia,Pakundia.,admin
+30,48,92,Tarail,তারেল,admin
+30,48,54,Kuliarchar,কুলিয়ারচর,admin
+30,48,2,Aoustogram,Austogram.,admin
+30,48,6,Bajitpur,বাজিতপুর,admin
+30,48,11,Bhairab,ভৈরব,admin
+30,48,27,Hosainpur,হোসেনপুর,admin
+30,48,45,Katiadi,Katiadi.,admin
+30,48,49,Kishoreganj Sadar,কিশোরগঞ্জ সদর,admin
+30,48,59,Mithamain,মিঠামাইন,admin
+30,48,33,Itna,ইটনা,admin
+30,48,76,Nikli,নিক্লি,admin
+30,56,70,Saturia,Saturia.,admin
+20,15,39,Karnafuli,কর্ণফুলি,admin
+30,56,10,Daulatpur,দৌলতপুর,admin
+30,56,82,Singair,Singair.,admin
+30,56,28,Harirampur,হরিরামপুর,admin
+30,56,78,Shibalaya,Shibalaya.,admin
+30,56,22,Ghior,Ghior.,admin
+30,56,46,Manikganj Sadar,মানিকগঞ্জ সদর,admin
+30,26,18,Dohar,দোহার,admin
+30,26,38,Keraniganj,কেরানীগঞ্জ,admin
+30,26,14,Dhamrai,ধামরাই,admin
+30,26,62,Nawabganj,নবাবগঞ্জ,admin
+30,26,72,Savar,সাভার,admin
+45,89,88,Sherpur Sadar,শেরপুর সদর,admin
+45,89,37,Jhenaigati,ঝিনাইগতি,admin
+45,89,70,Nalitabari,নলিতাবাড়ী,admin
+45,89,90,Sribordi,শ্রীবর্দি,admin
+45,89,67,Nakla,নকলা,admin
+30,86,36,Gosairhat,গোসরহাট,admin
+30,86,94,Zajira,জাজিরা,admin
+30,86,65,Naria,নারিয়া,admin
+30,86,69,Shariatpur Sadar,শরিয়তপুর সদর,admin
+30,86,14,Bhedarganj,ভেদগঞ্জ,admin
+30,86,25,Damudiya,দামুদিয়া,admin
+55,27,38,FULBARI,ফুলবাড়ী,admin
+55,27,64,DINAJPUR SADAR,দিনাজপুর সদর,admin
+40,47,21,Daulatpur Thana,দৌলতপুর থানা,admin
+40,47,45,Khalishpur Thana,খালিশপুর থানা,admin
+40,47,48,Khanjahan Ali Thana,খানজাহান আলী থানা,admin
+40,47,51,Khulna Sadar Thana,খুলনা সদর থানা,admin
+40,47,85,Sonadanga Thana,সোনাডাঙ্গা থানা,admin
+30,35,51,Kotalipara,কোটালিপাড়া,admin
+30,35,32,Gopalganj Sadar,গোপালগঞ্জ সদর,admin
+30,35,43,Kashiani,কাশিয়ানি,admin
+30,35,58,Moksudpur,মোকসুদপুর,admin
+30,35,91,Tungipara,তুঙ্গিপাড়া,admin
+10,6,51,Barishal Sadar,বরিশাল সদর,admin
+10,6,94,Uzirpur,উজিরপুর,admin
+10,6,36,Hijla,হিজলা,admin
+10,6,7,Bakerganj,বাকেরগঞ্জ,admin
+10,6,32,Gouranadi,গৌরদানী,admin
+10,6,3,Babuganj,বাবুগঞ্জ,admin
+10,6,10,Banaripara,বানারিপাড়া,admin
+10,6,69,Muladi,Muladi.,admin
+10,6,62,Mahendiganj,মহেন্দ্রীগঞ্জ,admin
+60,90,50,Jamalganj,জামালগঞ্জ,admin
+60,90,86,Sulla,সুলা,admin
+60,90,18,Biswambharpur,বিশ্বমহারপুরপুর,admin
+60,90,23,Chattak,ছত্তাক,admin
+60,90,89,Sunamganj Sadar,সুনামগঞ্জ সদর,admin
+60,90,29,Derai,ডারাই,admin
+60,90,47,Jagannathpur,জগন্নাথপুর,admin
+60,90,33,Dowarabazar,দাউরবাজার,admin
+60,90,32,Dharmapasha,ধর্মপশা,admin
+60,90,92,Taherpur,তাহেরপুর,admin
+60,90,27,South Sunamganj,দক্ষিণ সুনামগঞ্জ,admin
+60,58,14,Barlekha,বারলেখা,admin
+60,58,74,Moulvibazar Sadar,মৌলভীবাজার সদর,admin
+60,58,80,Rajnagar,রাজনগর,admin
+60,58,65,Kulaura,কুলাউড়া,admin
+60,58,56,Kamalganj,কামালগঞ্জ,admin
+60,58,83,Sreemangal,Sreemangal.,admin
+60,58,35,Juri,জুরি,admin
+60,91,31,South Surma,দক্ষিণ সুরমা,admin
+60,91,35,Fenchuganj,ফেনচুগঞ্জ,admin
+60,91,94,Zakiganj,জাকিগঞ্জ,admin
+60,91,8,Balaganj,বালাগঞ্জ,admin
+50,38,58,Kalai,কালাই,admin
+50,38,74,Panchbibi,পঞ্চবিবি,admin
+50,38,47,Joypurhat Sadar,জয়পুরহাট সদর,admin
+50,38,61,Khetlal,Khetlal.,admin
+50,64,69,Niamatpur,নিমতপুর,admin
+50,64,79,Porsha,পোর্শ,admin
+50,64,6,Badalgachi,বদলগচি,admin
+50,64,50,Mahadebpur,মহাদেবপুর,admin
+50,64,60,Naogaon Sadar,নওগাঁ সদর,admin
+50,64,85,Raninagar,রনিনগর,admin
+50,64,3,Atrai,আত্রাই,admin
+50,64,28,Dhamoirhat,ধমরহাট,admin
+50,64,47,Manda,Manda.,admin
+50,64,75,Patnitala,Patnitala.,admin
+50,64,86,Shapahar,Shapahar.,admin
+50,81,31,Durgapur,দুর্গাপুর,admin
+50,81,72,Paba,পাবা,admin
+50,81,10,Bagha,বাঘা,admin
+50,81,25,Charghat,চারঘাট,admin
+50,81,12,Bagmara,Bagmara.,admin
+50,81,34,Godagari,গোদাগারি,admin
+50,81,53,Mohanpur,মোহনপুর,admin
+50,81,82,Puthia,Puthia.,admin
+50,81,94,Tanore,তানোর,admin
+50,69,41,Gurudaspur,গুরুদাসপুর,admin
+50,69,44,Lalpur,লালপুর,admin
+50,69,15,Baraigram,বারিগ্রাম,admin
+50,69,9,Baghatipara,বাগতিপাড়া,admin
+50,69,63,Natore Sadar,নাটোর সদর,admin
+50,69,91,Singra,সিংড়া,admin
+50,76,39,Ishwardi,ঈশ্বরদী,admin
+50,76,33,Faridpur,ফরিদপুর,admin
+50,76,5,Atgharia,Atgharia.,admin
+50,76,19,Bhangura,ভঙ্গুরা,admin
+50,76,22,Chatmohar,চাতমোহর,admin
+50,76,72,Santhia,Santhia.,admin
+50,76,16,Bera,বেরা,admin
+50,76,55,Pabna Sadar,পাবনা সদর,admin
+50,76,83,Sujanagar,সুজনগর,admin
+20,30,25,Daganbhuiyan,Daganbhuiyan.,admin
+20,30,29,Feni Sadar,ফেনী সদর,admin
+20,30,14,Chagalnayya,চাগলনয়ায়,admin
+20,30,94,Sonagazi,সোনাগাজি,admin
+20,30,51,Parshuram,পারশুরাম,admin
+20,30,41,Fulgazi,Fulgazi.,admin
+20,12,4,Bancharampur,বঞ্চরামপুর,admin
+20,12,13,Brahmanbaria Sadar,ব্রাহ্মণবাড়িয়া সদর,admin
+20,12,33,Ashuganj,আশুগঞ্জ,admin
+20,12,90,Nasirnagar,নাসিরনগর,admin
+20,12,94,Sarail,Sarail.,admin
+20,12,7,Bijoy Nagor,বিজয় নগর,admin
+20,12,2,Akhaura,আখাউড়া,admin
+20,12,85,Nabinagar,নবীনগর,admin
+60,91,20,Bishwanath,বিশ্বনাথ,admin
+60,91,41,Gowainghat,গোয়িংহাট,admin
+60,91,53,Jaintapur,জৈন্তাপুর,admin
+60,91,27,Companyganj,কোম্পানিগঞ্জ,admin
+60,91,38,Golapganj,গোলাপগঞ্জ,admin
+60,91,62,Sylhet Sadar,সিলেট সদর,admin
+60,91,17,Beanibazar,বীনবাজার,admin
+60,91,59,Kanaighat,কানাঘাট,admin
+60,36,68,Lakhai,লক্ষাই,admin
+60,36,5,Bahubal,বাহুবাল,admin
+60,36,71,Madhabpur,মাধবপুর,admin
+60,36,77,Nabiganj,নাবিগঞ্জ,admin
+60,36,11,Baniachang,Baniachang.,admin
+60,36,26,Chunarughat,চুনরুঘাট,admin
+60,36,44,Habiganj Sadar,হবিগঞ্জ সদর,admin
+30,59,24,Gazaria,গাজারিয়া,admin
+30,59,44,Louhojong,Louhojong.,admin
+30,59,56,Munshiganj Sadar,মুন্সীগঞ্জ সদর,admin
+30,59,74,Sirajdikhan,সিরাজদিখান,admin
+30,59,84,Sreenagar,Sreenagar.,admin
+30,59,94,Tongibari,টঙ্গীবাড়ী,admin
+20,13,79,Matlab (North),মাতলাব (উত্তর),admin
+60,36,2,Ajmiriganj,আজমিরিগঞ্জ,admin
+55,77,25,Boda,Boda.,admin
+55,77,34,Debiganj,দেবীগঞ্জ,admin
+55,77,73,Panchagarh Sadar,পঞ্চগড় সদর,admin
+55,77,90,Tetulia,Tetulia.,admin
+55,77,4,Atwari,Atwari,admin
+55,32,21,Fulchari,ফুলছড়ি,admin
+55,32,30,Gobindaganj,গোবিন্দগঞ্জ,admin
+55,32,24,Gaibandha Sadar,গাইবান্ধা সদর,admin
+55,32,67,Palashbari,পলাশবাড়ী,admin
+55,32,82,Sadullapur,সাদুলাপুর,admin
+55,32,88,Shaghatta,শাগট্ট,admin
+55,32,91,Sundarganj,সুন্দরগঞ্জ,admin
+55,85,42,Kaunia,কুনিয়া,admin
+55,85,73,Pirgacha,পিরগাছা,admin
+55,85,58,Mithapukur,মিঠাপুকুর,admin
+55,85,27,Gangachara,গঙ্গাচারা,admin
+50,40,4,Kajla,কাজলা,admin
+30,93,11,Basail,বাসাইল,admin
+50,69,55,Naldanga,নলডাঙ্গা,admin
+45,61,88,Tarakanda,Tarakanda.,admin
+20,13,1,Faridganj,ফরিদগঞ্জ,admin
+10,9,26,Shashibhusion,শাশিভিউশন,admin
+30,26,3,Shyamoli,শ্যামলী,admin
+30,33,37,Tongi,টঙ্গী,admin
+50,81,89,Rajshahi City Corporation,রাজশাহী সিটি করপোরেশন,admin
+40,1,89,Mongla Municipality,মংলা পৌরসভা,admin
+60,36,85,Shayestaganj,শায়েস্তগঞ্জ,admin
+20,19,95,Lalmai,লালমাই,admin
+60,91,60,Osmaninagar,ওসমানিনগর,admin

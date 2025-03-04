@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member Report</title>
+
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5px;
+        padding: 5px;
+      }
+
+      .grid-container-member {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 2px;
+        padding: 2px;
+        font-size: 13px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 0;
+        font-size: 13px;
+      }
+
+      .item > p {
+        text-align: left;
+        border-bottom: 1px dashed gray;
+      }
+
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--   Report header   -->
+    <h1>
+      <p style="text-align: center">
+        <b> <%=data[0].samityName %> </b> | <b>Members Report</b> | Print Time:
+        <%= new Date() %>
+      </p>
+    </h1>
+    <hr />
+    <% console.log(data[0].nameEn); %>
+    <!--   samity details  -->
+    <div class="grid-container" style="border: 1px solid black">
+      <div class="item">
+        <p>
+          <b>Samity Name: </b>
+          <%= data[0].samityName %>
+        </p>
+        <p>
+          <b>Samity District: </b>
+          <%= data[0].districtName %>
+        </p>
+        <p>
+          <b>Samity Upazila: </b>
+          <%= data[0].upazilaName %>
+        </p>
+        <p>
+          <b>Samity Union: </b>
+          <%= data[0].unionName %>
+        </p>
+      </div>
+      <div class="item">
+        <p>
+          <b>Doptor Name:</b>
+          <%= data[0].doptorName %>
+        </p>
+        <p>
+          <b>Office Name:</b>
+          <%= data[0].officeName %>
+        </p>
+        <p>
+          <b>Project Name:</b>
+          <%= data[0].projectName %>
+        </p>
+      </div>
+    </div>
+    <!-- member sections -->
+    <div class="grid-container-member" style="border: 1px solid black">
+      <div class="item">
+        <h2 style="margin-left: auto; margin-right: auto">
+          Members Informations
+        </h2>
+        <table
+          style="
+            margin-left: auto;
+            margin-right: auto;
+            height: 70px;
+            width: 100%;
+          "
+        >
+          <tr>
+            <th>Serial</th>
+            <th>Name</th>
+            <th>Customer Code</th>
+            <th>Mobile Number</th>
+            <th>Image</th>
+            <th>Sign</th>
+          </tr>
+          <% var serial = 0; for (var i=0; i < data.length; i++) { %>
+          <tr>
+            <td style="text-align: center"><%= ++serial %></td>
+            <td style="text-align: center"><%= data[i].nameEn %></td>
+            <td style="text-align: center"><%= data[i].customerCode %></td>
+            <td style="text-align: center"><%= data[i].mobileNumber %></td>
+            <td>
+              <img
+                src="<%= data[i].docData.own.memberImageUrl %>"
+                style="
+                  width: 100px;
+                  height: 100px;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                "
+              />
+            </td>
+            <td>
+              <img
+                src="<%= data[i].docData.own.memberSignUrl %>"
+                style="
+                  width: 100px;
+                  height: 100px;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                "
+              />
+            </td>
+          </tr>
+          <% } %>
+        </table>
+      </div>
+    </div>
+
+    <!--   Footer  -->
+    <hr />
+
+    <footer style="text-align: center">
+      &copy;
+      <p><%= data[0].samityName %></p>
+    </footer>
+  </body>
+</html>

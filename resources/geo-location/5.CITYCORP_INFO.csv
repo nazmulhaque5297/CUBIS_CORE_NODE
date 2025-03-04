@@ -1,0 +1,13 @@
+division_code,district_code,upazila_code,city_corp_code,city_corp_name,city_corp_name_bangla,created_by
+30,26,2,25,Dhaka North CC,ঢাকা উত্তর সিসি,admin
+30,26,2,20,Dhaka South CC,ঢাকা দক্ষিণ সিসি,admin
+20,15,6,16,Chattogram CC,Chattogram সিসি,admin
+60,91,62,50,Sylhet CC,সিলেট সিসি,admin
+10,6,51,50,Barishal CC,বরিশাল সিসি,admin
+40,47,21,33,Khulna CC,খুলনা সিসি,admin
+50,81,22,66,Rajshahi CC,রাজশাহী সিসি,admin
+30,33,20,33,Gazipur CC,গাজীপুর সিসি,admin
+30,67,6,44,Narayanganj CC,নারায়ণগঞ্জ সিসি,admin
+55,85,49,75,Rangpur CC,রংপুর সিসি,admin
+20,19,33,50,Cumilla CC,কুমিল্লা সিসি,admin
+45,61,52,55,Mymensingh CC,ময়মনসিংহ সিসি,admin

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "equinusocio.vsc-community-material-theme",
+    "streetsidesoftware.code-spell-checker",
+    "eamodio.gitlens",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode"
+  ]
+}

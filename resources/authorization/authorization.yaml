@@ -1,0 +1,341 @@
+#
+# Feature mapping for authorization
+#
+features:
+  #
+  # DASHBOARD
+  #
+  - {
+      featureName: FEATURE,
+      featureNameBan: ড্যাশবোর্ড,
+      featureCode: "1.0",
+      url: "/dev/feature/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "1.0",
+      parentId: null,
+      isActive: true,
+    }
+  - {
+      featureName: "FEATURE_CREATE",
+      featureNameBan: "ফিচার তৈরি",
+      featureCode: "9.3",
+      iconId: "9.3",
+      url: "/dev/feature/",
+      type: "C",
+      parentId: 20,
+      isActive: true,
+      position: "CONT",
+      isRoot: false,
+    }
+  - {
+      featureName: CITIZEN_DASHBOARD,
+      featureNameBan: ড্যাশবোর্ড,
+      featureCode: "1.0",
+      url: "/citizen-dashboard/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "1.0",
+      parentId: null,
+      isActive: true,
+    }
+  - {
+      featureName: ADMIN_DASHBOARD,
+      featureNameBan: ড্যাশবোর্ড,
+      featureCode: "2.0",
+      url: "/admin-dashboard/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "2.0",
+      parentId: null,
+      isActive: true,
+    }
+  - {
+      featureName: DEVELOPER_DASHBOARD,
+      featureNameBan: ড্যাশবোর্ড,
+      featureCode: "3.0",
+      url: "/developer-dashboard/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "3.0",
+      parentId: null,
+      isActive: true,
+    }
+  #
+  # Role module
+  #
+  - {
+      featureName: ROLE,
+      featureNameBan: রোল,
+      featureCode: "4.0",
+      url: "/role/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "4.0",
+      parentId: null,
+      isActive: true,
+    }
+  # Create Role
+  - {
+      featureName: CREATE_ROLE,
+      featureNameBan: রোল তৈরি,
+      featureCode: "4.1",
+      url: "/role/create",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "4.1",
+      parentId: ROLE,
+      isActive: true,
+    }
+  # Get Role
+  - {
+      featureName: GET_ROLE,
+      featureNameBan: রোল সমগ্র,
+      featureCode: "4.2",
+      url: "/role/list",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "4.2",
+      parentId: ROLE,
+      isActive: true,
+    }
+  # Update Role
+  - {
+      featureName: UPDATE_ROLE,
+      featureNameBan: রোল পরিবর্তন,
+      featureCode: "4.3",
+      url: "/role/update",
+      isRoot: false,
+      type: C,
+      position: CONT,
+      iconId: "4.3",
+      parentId: ROLE,
+      isActive: true,
+    }
+  # Role Approval
+  - {
+      featureName: APPROVE_ROLE,
+      featureNameBan: রোল অনুমোদন,
+      featureCode: "4.4",
+      url: "/role/approve",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "4.4",
+      parentId: ROLE,
+      isActive: true,
+    }
+  #
+  # User module
+  #
+  - {
+      featureName: USER,
+      featureNameBan: USER,
+      featureCode: "5.0",
+      url: "/user/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "5.0",
+      parentId: null,
+      isActive: true,
+    }
+  # Approve user
+  - {
+      featureName: APPROVE_USER,
+      featureNameBan: APPROVE_USER,
+      featureCode: "5.1",
+      url: "/user/approve",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "5.1",
+      parentId: USER,
+      isActive: true,
+    }
+  # Get user
+  - {
+      featureName: GET_USER,
+      featureNameBan: GET_USER,
+      featureCode: "5.2",
+      url: "/user/list",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "5.2",
+      parentId: USER,
+      isActive: true,
+    }
+  #
+  # samity registration
+  #
+  - {
+      featureName: SAMITY_REGISTRATION,
+      featureNameBan: সমিতি নিবন্ধন,
+      featureCode: "6.0",
+      url: "/coop/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "6.0",
+      parentId: null,
+      isActive: true,
+    }
+  - {
+      featureName: NAME_CLEARANCE,
+      featureNameBan: নেম ক্লিয়ারেন্স,
+      featureCode: "6.1",
+      url: "/name-clearance",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "6.1",
+      parentId: SAMITY_REGISTRATION,
+      isActive: true,
+    }
+  - {
+      featureName: SAMITY_APPLICATION,
+      featureNameBan: সমিতি নিবন্ধনের আবেদন,
+      featureCode: "6.2",
+      url: "/coop/registration",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "6.2",
+      parentId: SAMITY_REGISTRATION,
+      isActive: true,
+    }
+  - {
+      featureName: MANUAL_SAMITY,
+      featureNameBan: সমিতি অনলাইনকরন,
+      featureCode: "6.3",
+      url: "/manual-samity/",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "6.3",
+      parentId: SAMITY_REGISTRATION,
+      isActive: true,
+    }
+  # user features
+  # approval
+  - {
+      featureName: APPROVAL,
+      featureNameBan: অ্যাপ্রুভাল,
+      featureCode: "7.0",
+      url: "/approval/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "7.0",
+      parentId: null,
+      isActive: true,
+    }
+  # committee
+  - {
+      featureName: COMMITTEE_SETUP,
+      featureNameBan: কমিটি গঠনের আবেদন,
+      featureCode: "8.0",
+      url: "/committee-setup/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "8.0",
+      parentId: null,
+      isActive: true,
+    }
+  #Citizen Dashboard
+  - {
+      featureName: CITIZEN_DASHBOARD,
+      featureNameBan: ড্যাশবোর্ড,
+      featureCode: "9.0",
+      url: "/citizen-dashboard/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "9.0",
+      parentId: null,
+      isActive: true,
+    }
+  #Web Setup
+  - {
+      featureName: WEB_SETUP,
+      featureNameBan: ওয়েব সেটআপ,
+      featureCode: "10.0",
+      url: "/web-portal/web-setup/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "10.0",
+      parentId: null,
+      isActive: true,
+    }
+  #Report
+  - {
+      featureName: REPORTS,
+      featureNameBan: ডকুমেন্ট,
+      featureCode: "10.0",
+      url: "/reports",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "11.0",
+      parentId: null,
+      isActive: true,
+    }
+  #Employee Management
+  - {
+      featureName: EMPLOYEE_MANAGEMENT,
+      featureNameBan: কর্মকর্তা/কর্মচারী ব্যবস্থপনা,
+      featureCode: "12.0",
+      url: "/employee-management/",
+      isRoot: true,
+      type: P,
+      position: SIDE,
+      iconId: "12.0",
+      parentId: null,
+      isActive: true,
+    }
+  - {
+      featureName: ASSIGNMENT_OF_TITLE,
+      featureNameBan: পদবী বরাদ্দকরন,
+      featureCode: "12.1",
+      url: "/employee-management/assignment",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "12.1",
+      parentId: EMPLOYEE_MANAGEMENT,
+      isActive: true,
+    }
+  - {
+      featureName: EMPLOYEE_INFO,
+      featureNameBan: কর্মকর্তা/কর্মচারী তথ্য,
+      featureCode: "12.1",
+      url: "/employee-management/information",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "12.2",
+      parentId: EMPLOYEE_MANAGEMENT,
+      isActive: true,
+    }
+  - {
+      featureName: EMPLOYEE_SALARY_PAYMENT,
+      featureNameBan: বেতন প্রদান,
+      featureCode: "12.3",
+      url: "/employee-management/salary-payment",
+      isRoot: false,
+      type: C,
+      position: SIDE,
+      iconId: "12.3",
+      parentId: EMPLOYEE_MANAGEMENT,
+      isActive: true,
+    }

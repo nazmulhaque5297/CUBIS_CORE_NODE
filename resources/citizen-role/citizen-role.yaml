@@ -1,0 +1,13 @@
+# citizen roles
+
+citizenRoles:
+  - {
+      roleName: "AUTHORIZED_PERSON",
+      description: "Authorized Person",
+      isActive: true,
+    }
+  - {
+      roleName: "ORGANIZER",
+      description: "Samity organizer person",
+      isActive: true,
+    }

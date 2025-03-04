@@ -1,0 +1,106 @@
+{
+  "port": 8090,
+  "database": {
+    "master": {
+      "user": "microt",
+      "host": "10.11.200.96",
+      "database": "MTDB",
+      "password": "micro@trust#23",
+      "port": 5432,
+      "dbType": "master"
+    },
+    "slave": [
+      {
+        "user": "microt",
+        "host": "10.11.200.96",
+        "database": "MTDB",
+        "password": "micro@trust#23",
+        "port": 5432,
+        "dbType": "slaves"
+      }
+    ],
+    "archive": {
+      "user": "microt",
+      "host": "10.11.200.96",
+      "database": "MTArchive",
+      "password": "micro@trust#23",
+      "port": 5432,
+      "dbType": "archive"
+    },
+    "log": {
+      "user": "microt",
+      "host": "10.11.200.96",
+      "database": "MTLog",
+      "password": "micro@trust#23",
+      "port": 5432,
+      "dbType": "log"
+    }
+  },
+  "component": {
+    "loan": 1,
+    "coop": 2,
+    "accounts": 7,
+    "inventory": 9,
+    "vms": 10
+  },
+  "admin": {
+    "username": "admin",
+    "password": "$2a$10$JiK5Vfl34Dc9lAWY9Y/p.OP5QbQ.LgVE5taX1LoVF43bM.wA8/kEu"
+  },
+  "objectStorage": "minio",
+  "minio": {
+    "endPoint": "10.11.200.30",
+    "port": 9000,
+    "useSSL": false,
+    "accessKey": "I009XISQ6R0677H4VIL1",
+    "secretKey": "Yi5y3IZdgUdF9ZNO7xkPe4FQ9iFImOEzudQqqeuz",
+    "bucket": "microtrust"
+  },
+  "obs": {
+    "endPoint": "http://obs.egovcloud.gov.bd",
+    "accessKey": "C6320C2BD0D296E7D015",
+    "secretKey": "ZLeprhCR3cQn1UTrZTdJnxNrkNQAAAGD0NKW6XMo",
+    "region": "defaultRegion",
+    "bucket": "lcms-bucket"
+  },
+
+  "fileUploadPath": "uploads/",
+  "jwtSecretDev": "ddfbd8b77445ebb9dd0cdf0fb3940ec1a7f06632649aba8ed01e96dc15e9563a",
+  "jwtSecretApp": "ddfbd8b77445ebb9dd0cdf0fb3940ec1a7f06632649aba8ed01e96dc15e9563b",
+  "jwtSecretTemp": "ddfbd8b77445ebb9dd0cdf0fb3940ec1a7f06632649aba8ed01e96dc15e9563c",
+  "jwtSecretShared": "er@rdcd@t0ken",
+  "jwtSecretCitizen": "er@rdcd@t0ken",
+  "dashboardCreds": {
+    "url": "https://stage-dashboard.rdcd.gov.bd",
+    "grantType": "client_credentials",
+    "clients": {
+      "accounts": {
+        "id": 8,
+        "secret": "QIGCQdSvBPIBM30tppUGaufiGjeVfd7x0ZEHvAJA"
+      },
+      "coop": {
+        "id": 4,
+        "secret": "lkDFtIpTzMRAmIkRuZNb9R1FOuFZO52NqOTemeXQ"
+      },
+      "inventory": {
+        "id": 16,
+        "secret": "LohslTe0ZmxPwOevNU3nWzsw7Jcti2vdxPXzyefn"
+      },
+      "loan": {
+        "id": 3,
+        "secret": "s7DjDzDnnaHEkG3Oat8V0vQppwmRETkA125PsW1E"
+      },
+      "vms": {
+        "id": 15,
+        "secret": "ccH3pg8fCntarZuLAXAg33NCBjCLULVOF0s0P5cP"
+      }
+    }
+  },
+  "jasper": {
+    "endPoint": "http://10.11.200.30:8085/jasperserver/rest_v2/reports/reports/",
+    "username": "jasperadmin",
+    "password": "jasperadmin"
+  },
+  "liveIp": "http://10.11.200.30:8090",
+  "liveIpClient": "http://10.11.200.30:3090"
+}
