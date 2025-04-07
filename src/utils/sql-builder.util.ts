@@ -59,7 +59,7 @@ export function buildInsertSql(tableName: string, data: Object): ISqlBuilderResu
   let attrs = "";
   let paramsStr = "";
   let sql = `INSERT INTO ${tableName} `;
-  const snakeObject = toSnakeKeys(data);
+  const snakeObject = data;
   const params: any[] = [];
   let counter = 0;
   for (const [k, v] of Object.entries(snakeObject)) {
@@ -248,4 +248,75 @@ export function buildTempToMainSql(
   }
   sql += ` RETURNING ${returningValue} ;`;
   return { sql };
+}
+
+
+// export function buildGetSql(
+//   selectName: string[],
+//   tableName: string,
+//   whereCondition: Object 
+// ): { queryText: string; values: any } {
+
+//   console.log("whereCondition",whereCondition)
+//   let queryText = `SELECT`;
+//   if (selectName) {
+//     for (const [index, key] of selectName.entries()) {
+//       if (index === 0) {
+//         queryText = queryText + ` ${selectName[index]} `;
+//       } else {
+//         queryText = queryText + `, ${selectName[index]} `;
+//       }
+//       // return getTheNameOfValues;
+//     }
+//   }
+//   queryText = queryText + ` FROM ${tableName}`;
+//   let count = 1;
+//   const keys = Object.keys(whereCondition);
+//   //const values = Object.values(whereCondition);
+
+//   // const keys = Object.keys(whereCondition);
+//   // const columns = keys.join(', ');
+//   // const values = keys.map(k => `@${k}`).join(', ');
+
+
+//   if (whereCondition) {
+
+//     for (const [index, key] of keys.entries()) {
+//       if (index === 0) {
+//         queryText = queryText + ` WHERE ${keys[index]}= @${keys[index]} `;
+//       } else {
+//         queryText = queryText + ` AND ${keys[index]}= @${keys[index]} `;
+//       }
+//     }
+//   }
+//   return { queryText, values:whereCondition };
+// }
+
+export function buildGetSql(
+  selectName: string[],
+  tableName: string,
+  whereCondition: Object
+): { queryText: string; values: any } {
+  console.log("whereCondition", whereCondition);
+  
+  // Construct the SELECT part of the query
+  let queryText = `SELECT`;
+  if (selectName && selectName.length > 0) {
+    queryText += ` ${selectName.join(', ')} `;
+  }
+  
+  // Add the FROM clause
+  queryText += `FROM ${tableName} `;
+  
+  // Handle WHERE conditions if present
+  const keys = Object.keys(whereCondition);
+  if (keys.length > 0) {
+    queryText += `WHERE ${keys.map(key => `${key} = @${key}`).join(' AND ')}`;
+  }
+
+  // Return the query text and the values (parameters) as an object
+  return { 
+    queryText, 
+    values: whereCondition 
+  };
 }

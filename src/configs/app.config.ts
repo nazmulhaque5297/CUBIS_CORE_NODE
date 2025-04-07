@@ -19,7 +19,7 @@ export function getAdminCreds() {
   return appConf.admin;
 }
 
-export type JwtType = "dev" | "app" | "temp" | "shared" | "citizen";
+export type JwtType = "dev" | "app" | "temp" | "shared" | "user";
 export function getJWTSecret(type: JwtType) {
   switch (type) {
     case "dev":
@@ -30,8 +30,8 @@ export function getJWTSecret(type: JwtType) {
       return appConf.jwtSecretTemp;
     case "shared":
       return appConf.jwtSecretShared;
-    case "citizen":
-      return appConf.jwtSecretCitizen;
+    case "user":
+      return appConf.jwtSecretUser;
     default:
       return appConf.jwtSecretApp;
   }
@@ -84,15 +84,15 @@ export function getComponentId(componentName: ComponentType) {
 }
 
 //dashboard url
-export const dashboardUrl = appConf.dashboardCreds.url;
-export const dashboardGrantType = appConf.dashboardCreds.grantType;
+// export const dashboardUrl = appConf.dashboardCreds.url;
+// export const dashboardGrantType = appConf.dashboardCreds.grantType;
 
-export function getDashboardClientCreds(componentName: ComponentType) {
-  const dashboardCred = appConf.dashboardCreds.clients[componentName];
-  return {
-    dashboardClientId: dashboardCred.id,
-    dashboardClientSecret: dashboardCred.secret,
-  };
-}
+// export function getDashboardClientCreds(componentName: ComponentType) {
+//   const dashboardCred = appConf.dashboardCreds.clients[componentName];
+//   return {
+//     dashboardClientId: dashboardCred.id,
+//     dashboardClientSecret: dashboardCred.secret,
+//   };
+// }
 
 export const objectStorage = appConf.objectStorage as "minio" | "obs";

@@ -1,19 +1,23 @@
-export interface PGCredentials {
+export interface SQLServerCredentials {
   user: string;
-  host: string;
+  server: string;
   database: string;
   password: string;
   port: number;
-  dbType: string;
+  dbType:string;
+  options?: {
+    encrypt?: boolean;
+    trustServerCertificate?: boolean;
+  };
 }
 
 export abstract class BaseConnection {
-  protected slaveCredentials: PGCredentials[];
-  protected masterCredentials: PGCredentials;
-  protected archiveCredentials: PGCredentials;
-  protected logCredentials: PGCredentials;
+  protected slaveCredentials: SQLServerCredentials[];
+  protected masterCredentials: SQLServerCredentials;
+  protected archiveCredentials: SQLServerCredentials;
+  protected logCredentials: SQLServerCredentials;
 
-  constructor(credentials: PGCredentials | PGCredentials[]) {
+  constructor(credentials: SQLServerCredentials | SQLServerCredentials[]) {
     if (Array.isArray(credentials)) {
       this.slaveCredentials = credentials;
     } else if (!Array.isArray(credentials) && credentials.dbType == "archive") {

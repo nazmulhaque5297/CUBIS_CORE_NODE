@@ -2,37 +2,41 @@
   "port": 8090,
   "database": {
     "master": {
-      "user": "microt",
-      "host": "10.11.200.96",
-      "database": "MTDB",
-      "password": "micro@trust#23",
-      "port": 5432,
-      "dbType": "master"
+      "user": "sa",
+      "server": "192.168.1.166",
+      "database": "CCULBBTCUBS",
+      "password": "imple123",
+      "port": 1433,
+      "dbType": "master",
+      "options": {
+         "encrypt": true,
+         "trustServerCertificate": true
+        }
     },
     "slave": [
       {
-        "user": "microt",
-        "host": "10.11.200.96",
-        "database": "MTDB",
-        "password": "micro@trust#23",
-        "port": 5432,
+        "user": "sa",
+        "server": "192.168.1.166",
+        "database": "CCULBBTCUBS",
+        "password": "imple123",
+        "port": 1433,
         "dbType": "slaves"
       }
     ],
     "archive": {
-      "user": "microt",
-      "host": "10.11.200.96",
-      "database": "MTArchive",
-      "password": "micro@trust#23",
-      "port": 5432,
+      "user": "sa",
+      "server": "192.168.1.166",
+      "database": "CCULBBTCUBS",
+      "password": "imple123",
+      "port": 1433,
       "dbType": "archive"
     },
     "log": {
-      "user": "microt",
-      "host": "10.11.200.96",
-      "database": "MTLog",
-      "password": "micro@trust#23",
-      "port": 5432,
+      "user": "sa",
+      "server": "192.168.1.166",
+      "database": "CCULBBTCUBS",
+      "password": "imple123",
+      "port": 1433,
       "dbType": "log"
     }
   },
@@ -68,34 +72,8 @@
   "jwtSecretDev": "ddfbd8b77445ebb9dd0cdf0fb3940ec1a7f06632649aba8ed01e96dc15e9563a",
   "jwtSecretApp": "ddfbd8b77445ebb9dd0cdf0fb3940ec1a7f06632649aba8ed01e96dc15e9563b",
   "jwtSecretTemp": "ddfbd8b77445ebb9dd0cdf0fb3940ec1a7f06632649aba8ed01e96dc15e9563c",
-  "jwtSecretShared": "er@rdcd@t0ken",
-  "jwtSecretCitizen": "er@rdcd@t0ken",
-  "dashboardCreds": {
-    "url": "https://stage-dashboard.rdcd.gov.bd",
-    "grantType": "client_credentials",
-    "clients": {
-      "accounts": {
-        "id": 8,
-        "secret": "QIGCQdSvBPIBM30tppUGaufiGjeVfd7x0ZEHvAJA"
-      },
-      "coop": {
-        "id": 4,
-        "secret": "lkDFtIpTzMRAmIkRuZNb9R1FOuFZO52NqOTemeXQ"
-      },
-      "inventory": {
-        "id": 16,
-        "secret": "LohslTe0ZmxPwOevNU3nWzsw7Jcti2vdxPXzyefn"
-      },
-      "loan": {
-        "id": 3,
-        "secret": "s7DjDzDnnaHEkG3Oat8V0vQppwmRETkA125PsW1E"
-      },
-      "vms": {
-        "id": 15,
-        "secret": "ccH3pg8fCntarZuLAXAg33NCBjCLULVOF0s0P5cP"
-      }
-    }
-  },
+  "jwtSecretShared": "CCULB@CUBIS@T0ken",
+  "jwtSecretUser": "CCULB@CUBIS@T0ken",
   "jasper": {
     "endPoint": "http://10.11.200.30:8085/jasperserver/rest_v2/reports/reports/",
     "username": "jasperadmin",

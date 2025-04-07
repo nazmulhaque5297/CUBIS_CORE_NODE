@@ -1,21 +1,36 @@
-import { Pool } from "pg";
+
+import { ConnectionPool } from "mssql";
 import { getMasterDBCredentials } from "../../configs/coop.config";
-import { BaseConnection, PGCredentials } from "../base/base-connection.db";
+import { BaseConnection, SQLServerCredentials } from "../base/base-connection.db";
 
 class Master extends BaseConnection {
-  constructor(credentials: PGCredentials) {
-    super(credentials);
+  constructor(credentials: SQLServerCredentials,DatabaseName:string) {
+    if(DatabaseName=='master'){
+      super(credentials);
+    }
+    else{
+      credentials.database=DatabaseName
+      super(credentials);
+    }
+   
   }
-  async connect() {
-    const pool = new Pool({ ...this.masterCredentials });
+  
+
+  // Connect method for SQL Server using mssql.ConnectionPool
+  async connect(): Promise<ConnectionPool> {
+    const pool = new ConnectionPool(this.masterCredentials);
     try {
       await pool.connect();
       console.log("[INFO] connected to masterDB");
     } catch (error) {
-      console.log(error);
+      console.error("[ERROR] Failed to connect to masterDB:", error);
     }
+
     return pool;
   }
 }
 
-export const masterConnection = new Master(getMasterDBCredentials).connect();
+// Initialize master connection
+export function masterConnection(databaseName:string) {
+ return  new Master(getMasterDBCredentials,databaseName).connect();
+}

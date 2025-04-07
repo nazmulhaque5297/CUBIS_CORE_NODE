@@ -11,35 +11,35 @@ import * as path from "path";
 import "reflect-metadata";
 import Container from "typedi";
 import { defaultDateFormat, defaultTimezone, getDB } from "./configs/app.config";
-import pgConnection from "./db/connection.db";
+import dbConnection from "./db/connection.db";
 import { errLoggerConfig } from "./loggers/error-logger.log";
 import { infoLoggerConfig } from "./loggers/info-logger.log";
 import { errorHandler } from "./middlewares/error-handler.middle";
 import { processHandler } from "./middlewares/process-handler.middle";
-import LoanInfoScheduleServices from "./modules/scheduler/services/schedule.service";
+//import LoanInfoScheduleServices from "./modules/scheduler/services/schedule.service";
 import { requestBodyHTMLEscape } from "./utils/html-escape.utils";
 // importing modules
-import * as accountsModule from "./modules/accounts";
-import * as activityModule from "./modules/activity";
-import * as applicationModule from "./modules/application";
-import * as dashboardModule from "./modules/dashboard";
-import * as externalAPI from "./modules/external-api";
-import * as inventoryModule from "./modules/inventory";
-import * as jesperModule from "./modules/jasper";
-import * as loanModule from "./modules/loan";
-import * as masterModule from "./modules/master";
-import * as migrationModule from "./modules/migration";
-import * as notificationModule from "./modules/notification";
-import * as obsModule from "./modules/obs";
-import * as reportsModule from "./modules/reports";
-import * as roleModule from "./modules/role";
-import * as samityModule from "./modules/samity";
-import * as sanctionModule from "./modules/sanction";
-import * as savingsModule from "./modules/savings";
-import * as scheduleModule from "./modules/schedule";
-import * as transactionModule from "./modules/transaction";
-import * as userModule from "./modules/user";
-import * as vmsModule from "./modules/vms";
+// import * as accountsModule from "./modules/accounts";
+// import * as activityModule from "./modules/activity";
+// import * as applicationModule from "./modules/application";
+// import * as dashboardModule from "./modules/dashboard";
+// import * as externalAPI from "./modules/external-api";
+// import * as inventoryModule from "./modules/inventory";
+// import * as jesperModule from "./modules/jasper";
+// import * as loanModule from "./modules/loan";
+// import * as masterModule from "./modules/master";
+// import * as migrationModule from "./modules/migration";
+// import * as notificationModule from "./modules/notification";
+// import * as obsModule from "./modules/obs";
+// import * as reportsModule from "./modules/reports";
+// import * as roleModule from "./modules/role";
+// import * as samityModule from "./modules/samity";
+// import * as sanctionModule from "./modules/sanction";
+// import * as savingsModule from "./modules/savings";
+// import * as scheduleModule from "./modules/schedule";
+// import * as transactionModule from "./modules/transaction";
+// import * as userModule from "./modules/user";
+// import * as vmsModule from "./modules/vms";
 
 //coop modeles import
 import * as citizenModule from "./modules/coop/citizen";
@@ -54,8 +54,11 @@ import * as coopRoleModule from "./modules/coop/role";
 import * as samityCorrectionModule from "./modules/coop/samity-details-correction";
 import * as archiveModule from "./modules/coop/schedule";
 import * as setupModule from "./modules/coop/setup";
-import { LoanDashboardServices } from "./modules/loan/services/dashboard/dashboard.service";
+//import { LoanDashboardServices } from "./modules/loan/services/dashboard/dashboard.service";
 import { scheduleJob } from "node-schedule";
+
+
+import * as AccountingModule from "./modules/accounting"
 
 export default async function appFactory(): Promise<Application> {
   // express app init
@@ -119,66 +122,68 @@ export default async function appFactory(): Promise<Application> {
   });
 
   //connection
-  await pgConnection.connect(getDB());
+  await dbConnection.connect(getDB());
 
   //loggers
-  app.use(expressWinston.logger(infoLoggerConfig));
+  //app.use(expressWinston.logger(infoLoggerConfig));
 
   /**
    * Register Modules
    */
-  roleModule.init(app);
-  userModule.init(app);
-  masterModule.init(app);
-  samityModule.init(app);
-  reportsModule.init(app);
-  sanctionModule.init(app);
-  transactionModule.init(app);
-  applicationModule.init(app);
-  dashboardModule.init(app);
-  loanModule.init(app);
-  jesperModule.init(app);
-  scheduleModule.init(app);
-  notificationModule.init(app);
-  migrationModule.init(app);
-  accountsModule.init(app);
-  inventoryModule.init(app);
-  savingsModule.init(app);
-  vmsModule.init(app);
-  activityModule.init(app);
-  externalAPI.init(app);
-  obsModule.init(app);
+  // roleModule.init(app);
+  // userModule.init(app);
+  // masterModule.init(app);
+  // samityModule.init(app);
+  // reportsModule.init(app);
+  // sanctionModule.init(app);
+  // transactionModule.init(app);
+  // applicationModule.init(app);
+  // dashboardModule.init(app);
+  // loanModule.init(app);
+  // jesperModule.init(app);
+  // scheduleModule.init(app);
+  // notificationModule.init(app);
+  // migrationModule.init(app);
+  // accountsModule.init(app);
+  // inventoryModule.init(app);
+  // savingsModule.init(app);
+  // vmsModule.init(app);
+  // activityModule.init(app);
+  // externalAPI.init(app);
+  // obsModule.init(app);
 
   //coop modules
-  coopModule.init(app);
-  citizenModule.init(app);
-  portalModule.init(app);
-  employeeManagementModule.init(app);
-  processModule.init(app);
-  setupModule.init(app);
-  archiveModule.init(app);
-  coopReportModule.init(app);
-  coopRoleModule.init(app);
-  samityCorrectionModule.init(app);
-  memberFinancialInfo.init(app);
-  fixedAsset.init(app);
-  app.use(expressWinston.errorLogger(errLoggerConfig));
+  // coopModule.init(app);
+  // citizenModule.init(app);
+  // portalModule.init(app);
+  // employeeManagementModule.init(app);
+  // processModule.init(app);
+  // setupModule.init(app);
+  // archiveModule.init(app);
+  // coopReportModule.init(app);
+  // coopRoleModule.init(app);
+  // samityCorrectionModule.init(app);
+  // memberFinancialInfo.init(app);
+  // fixedAsset.init(app);
+  // app.use(expressWinston.errorLogger(errLoggerConfig));
 
   /**
    * Register Error Handler
    */
+
+  AccountingModule.init(app);
   app.use(errorHandler);
-  const loanInfoScheduleServices = Container.get(LoanInfoScheduleServices);
+  //const loanInfoScheduleServices = Container.get(LoanInfoScheduleServices);
 
   // scheduleJob(" 06 01 * * *", () => {
   //   loanInfoScheduleServices.generateSchedule();
   // });
 
   // for dashboard schedule
-  const dashboardScheduleServices = Container.get(LoanDashboardServices)
-  scheduleJob('0 0 * * *', () => {
-    dashboardScheduleServices.insertLoanDashboardData();
-  });
+  // const dashboardScheduleServices = Container.get(LoanDashboardServices)
+  // scheduleJob('0 0 * * *', () => {
+  //   dashboardScheduleServices.insertLoanDashboardData();
+  // });
 
   return app;
 }
